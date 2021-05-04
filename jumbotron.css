@@ -1,0 +1,7 @@
+.jumbotron {
+    max-width: 500px;
+    margin: 0 auto;
+    border: 0.08em solid black;
+    text-align: center;
+    background-color: rgba(224, 238, 226, ); ;
+  }
