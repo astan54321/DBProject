@@ -13,10 +13,9 @@ error_reporting(E_ALL);
      }
 
   // SELECT Query for username
-  $sql = "INSERT INTO Fans (fanID, fisrtName, lastName, age, gender)
+  $sql = "INSERT INTO Fans (fanID, firstName, lastName, age, gender)
   VALUES
   ('$_POST[fid]','$_POST[fname]','$_POST[lname]','$_POST[age]','$_POST[gender]')";
-  $pass = mysqli_query($con,$getPass);
 
   if (!mysqli_query($con,$sql))
   {

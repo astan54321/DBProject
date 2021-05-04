@@ -16,7 +16,7 @@
 	$FAN_PASSWORD = 'Basketball_fan1';
 	$FAN_DATABASE = 'cnw2bx';
 
-	$user;
+	$LIBRARY_USER;
 	$userCon;
 
 	function openDBCon(){

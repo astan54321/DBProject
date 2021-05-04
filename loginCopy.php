@@ -28,6 +28,7 @@ error_reporting(E_ALL);
     {
       printf("password is correct\n");
       // password correct
+      $LIBRARY_USER = $_POST[uname];
       header("Location: ./");
     }
     else 
