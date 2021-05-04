@@ -21,6 +21,15 @@ error_reporting(E_ALL);
   {
   die('Error: ' . mysqli_error($con));
   }
+
+  $sql = "INSERT INTO RootsFor (fanID, sid, pid)
+  VALUES
+  ('$_POST[fid]','$_POST[team]', NULL)";
+
+  if (!mysqli_query($con,$sql))
+  {
+  die('Error: ' . mysqli_error($con));
+  }
  
   header("Location: ./");
 
